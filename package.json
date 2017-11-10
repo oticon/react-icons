@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/oticon/react-button.git"
+    "url": "git+https://github.com/oticon/react-icons.git"
   },
   "author": "Sadi Kaya <skay@oticon.com> (https://oticon.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/oticon/react-button/issues"
+    "url": "https://github.com/oticon/react-icons/issues"
   },
-  "homepage": "https://github.com/oticon/react-button#readme",
+  "homepage": "https://github.com/oticon/react-icons#readme",
   "dependencies": {
     "classnames": "^2.2.5",
     "cross-env": "^5.1.1",
@@ -39,7 +39,9 @@
     "postcss-cssnext": "^3.0.2",
     "postcss-import": "^11.0.0",
     "postcss-loader": "^2.0.8",
+    "prop-types": "^15.6.0",
     "style-loader": "^0.19.0",
+    "url-loader": "^0.6.2",
     "webpack": "^3.8.1",
     "webpack-dev-server": "^2.9.4"
   },
