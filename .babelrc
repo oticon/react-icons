@@ -1,0 +1,15 @@
+{
+  "presets": [
+    ["env", {
+      "modules": false,
+      "targets": {
+        "browsers": ["last 3 versions"]
+      },
+      "useBuiltIns": true
+    }
+    ],
+    "react",
+    "stage-0"
+  ],
+  "ignore": ["node_modules"]
+}
