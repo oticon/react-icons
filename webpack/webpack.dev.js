@@ -28,15 +28,16 @@ module.exports = () => {
         },
         {
           test: /\.css$/,
-          use: {
-            fallback: 'style-loader',
-            use: [
-              'style-loader',
-              { loader: 'css-loader', options: { modules: true, importLoaders: 1, localIdentName: "[name]__[local]" }},
-              'postcss-loader'
-            ],
-          },
+          use: [
+            'style-loader',
+            { loader: 'css-loader', options: { modules: true, importLoaders: 1 }},
+            'postcss-loader'
+          ],
         },
+        {
+          test: /\.(ico|eot|svg|ttf|woff|woff2)$/,
+          use: [{ loader: 'url-loader?name=[name].[ext]' }],
+        }
       ],
     },
     plugins: removeEmpty([
@@ -49,7 +50,6 @@ module.exports = () => {
         'process.env': {
           NODE_ENV: JSON.stringify('development'),
         },
-        SENTRYIO: JSON.stringify(false),
       }),
     ]),
   };

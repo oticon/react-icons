@@ -33,10 +33,13 @@ module.exports = () => {
             'postcss-loader'
           ],
         },
+        {
+          test: /\.(ico|eot|svg|ttf|woff|woff2)$/,
+          use: [{ loader: 'url-loader?name=[name].[ext]' }],
+        }
       ],
     },
     plugins: removeEmpty([
-      new webpack.optimize.ModuleConcatenationPlugin(),
       new webpack.LoaderOptionsPlugin({
         minimize: true,
         debug: false,
@@ -45,8 +48,8 @@ module.exports = () => {
         'process.env': {
           NODE_ENV: JSON.stringify('production'),
         },
-        SENTRYIO: JSON.stringify(true),
       }),
+      new webpack.optimize.ModuleConcatenationPlugin(),
       new webpack.optimize.UglifyJsPlugin({
         compress: {
           screw_ie8: true,
