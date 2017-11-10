@@ -10,7 +10,7 @@ import styles from './fonts/Icons.css';
  * @returns {XML}
  * @constructor
  */
-export const Icons = ({ color, icon, fontSize }) => {
+const Icons = ({ color, icon, fontSize }) => {
   const inlineStyles = { color, fontSize };
   return <span className={cn(styles.icomoon, styles[icon])} style={inlineStyles} />;
 };
@@ -34,3 +34,5 @@ Icons.propTypes = {
   icon: PropTypes.string.isRequired,
   fontSize: PropTypes.string,
 };
+
+export default Icons;
