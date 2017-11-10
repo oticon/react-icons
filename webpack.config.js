@@ -11,8 +11,8 @@ module.exports = () => {
     devtool: 'cheap-source-map',
     output: {
       path: path.join(__dirname, './lib/'),
-      filename: '[name].js',
-      sourceMapFilename: '[name].map',
+      filename: 'index.js',
+      sourceMapFilename: 'index.map',
     },
     resolve: {
       extensions: ['.js'],
