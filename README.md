@@ -1,1 +1,1 @@
-# react-icons [![Build Status](https://travis-ci.com/oticon/react-icons.svg?token=aB5xwQxPNv6tqcstXpgY&branch=develop)](https://travis-ci.com/oticon/react-icons)
+# react-icons [![Build Status](https://travis-ci.org/oticon/react-icons.svg?branch=master)](https://travis-ci.org/oticon/react-icons)
