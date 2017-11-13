@@ -4,11 +4,10 @@
   "description": "",
   "main": "./lib/index.js",
   "scripts": {
-    "start": "cross-env NODE_ENV=development node webpack/webpack-dev-server",
-    "prebuild:dev": "rimraf lib/*",
-    "build:dev": "cross-env NODE_ENV=development webpack --progress",
+    "prepublish": "npm run build",
     "prebuild": "rimraf lib/*",
-    "build": "cross-env NODE_ENV=production webpack --progress"
+    "build": "cross-env NODE_ENV=production webpack --progress",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -16,9 +15,6 @@
   },
   "author": "Sadi Kaya <skay@oticon.com> (https://oticon.com)",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/oticon/react-icons/issues"
-  },
   "homepage": "https://github.com/oticon/react-icons#readme",
   "dependencies": {
     "classnames": "^2.2.5",
