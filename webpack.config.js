@@ -9,6 +9,7 @@ module.exports = () => {
     output: {
       path: path.join(__dirname, './lib/'),
       filename: 'index.js',
+      libraryTarget: 'commonjs2',
     },
     resolve: {
       extensions: ['.js'],
