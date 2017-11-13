@@ -1,12 +1,12 @@
 {
   "name": "@oticon/react-icons",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "",
   "main": "./lib/index.js",
   "scripts": {
     "prepublish": "npm run build",
     "prebuild": "rimraf lib/*",
-    "build": "cross-env NODE_ENV=production webpack --progress",
+    "build": "cross-env NODE_ENV=production webpack --progress"
   },
   "repository": {
     "type": "git",
