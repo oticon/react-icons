@@ -1,17 +1,17 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import cn from 'classnames';
-import styles from './fonts/Icons.css';
+import styles from './fonts/oticon-icon-www.css';
 
 /**
- * Icons
+ * Icon
  * @param color
  * @param icon
  * @param fontSize
  * @returns {XML}
  * @constructor
  */
-const Icons = ({ color, icon, fontSize }) => {
+const Icon = ({ color, icon, fontSize }) => {
   const inlineStyles = { color, fontSize };
   return <span className={cn(styles.icomoon, styles[icon])} style={inlineStyles} />;
 };
@@ -20,7 +20,7 @@ const Icons = ({ color, icon, fontSize }) => {
  * defaultProps
  * @type {{color: string, icon: string, fontSize: string}}
  */
-Icons.defaultProps = {
+Icon.defaultProps = {
   color: "#000",
   icon: "icon-budicon-info",
   fontSize: "24px",
@@ -30,10 +30,10 @@ Icons.defaultProps = {
  * propTypes
  * @type {{color: shim, icon: *, fontSize: shim}}
  */
-Icons.propTypes = {
+Icon.propTypes = {
   color: PropTypes.string,
   icon: PropTypes.string.isRequired,
   fontSize: PropTypes.string,
 };
 
-export default Icons;
+export default Icon;
