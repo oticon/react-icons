@@ -21,9 +21,9 @@ const Icon = ({ color, icon, fontSize }) => {
  * @type {{color: string, icon: string, fontSize: string}}
  */
 Icon.defaultProps = {
-  color: "#000",
-  icon: "icon-budicon-info",
-  fontSize: "24px",
+  color: "",
+  icon: "",
+  fontSize: "",
 };
 
 /**
