@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'oticon-icon-www';
-  src: url('../src/fonts/oticon-icon-www.eot?f8s7te');
-  src: url('../src/fonts/oticon-icon-www.eot?f8s7te#iefix') format('embedded-opentype'),
-  url('../src/fonts/oticon-icon-www.woff2?f8s7te') format('woff2'),
-  url('../src/fonts/oticon-icon-www.ttf?f8s7te') format('truetype'),
-  url('../src/fonts/oticon-icon-www.woff?f8s7te') format('woff'),
-  url('../src/fonts/oticon-icon-www.svg?f8s7te#oticon-icon-www') format('svg');
+  src:  url('fonts/oticon-icon-www.eot?f8s7te');
+  src:  url('fonts/oticon-icon-www.eot?f8s7te#iefix') format('embedded-opentype'),
+    url('fonts/oticon-icon-www.woff2?f8s7te') format('woff2'),
+    url('fonts/oticon-icon-www.ttf?f8s7te') format('truetype'),
+    url('fonts/oticon-icon-www.woff?f8s7te') format('woff'),
+    url('fonts/oticon-icon-www.svg?f8s7te#oticon-icon-www') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -28,347 +28,276 @@
 .icon-budicon-info:before {
   content: "\e900";
 }
-
 .icon-com-email2:before {
   content: "\e81d";
   color: #000;
 }
-
 .icon-Call:before {
   content: "\e908";
 }
-
 .icon-budidcon-pdf:before {
   content: "\e906";
 }
-
 .icon-media-image-d:before {
   content: "\e89c";
   color: #000;
 }
-
 .icon-budicon-no-image:before {
   content: "\e907";
 }
-
 .icon-budicon-google-plus:before {
   content: "\e905";
 }
-
 .icon-setting-airplane:before {
   content: "\e971";
   color: #000;
 }
-
 .icon-transport-truck:before {
   content: "\e9ef";
   color: #000;
 }
-
 .icon-web-internet-a:before {
   content: "\ea40";
   color: #000;
 }
-
 .icon-location-alt-pin2:before {
   content: "\e9af";
   color: #000;
 }
-
 .icon-location-compass2:before {
   content: "\e9b1";
   color: #000;
 }
-
 .icon-location-pin-map2:before {
   content: "\e9b6";
   color: #000;
 }
-
 .icon-location-pin-regular2:before {
   content: "\e9ba";
   color: #000;
 }
-
 .icon-com-help-a:before {
   content: "\e829";
   color: #000;
 }
-
 .icon-interface-logout-a:before {
   content: "\eb01";
   color: #000;
 }
-
 .icon-web-logout:before {
   content: "\ea41";
   color: #000;
 }
-
 .icon-user-alt:before {
   content: "\ea0f";
   color: #000;
 }
-
 .icon-user-lock:before {
   content: "\ea20";
   color: #000;
 }
-
 .icon-budicon-circle-plus-full:before {
   content: "\e904";
 }
-
 .icon-interface-bottom:before {
   content: "\eac5";
   color: #000;
 }
-
 .icon-interface-left:before {
   content: "\eafa";
   color: #000;
 }
-
 .icon-interface-right:before {
   content: "\eb14";
   color: #000;
 }
-
 .icon-interface-top:before {
   content: "\eb24";
   color: #000;
 }
-
 .icon-arrow-down:before {
   content: "\e601";
   color: #000;
 }
-
 .icon-arrow-left:before {
   content: "\e602";
   color: #000;
 }
-
 .icon-arrow-right:before {
   content: "\e603";
   color: #000;
 }
-
 .icon-arrow-up:before {
   content: "\e604";
   color: #000;
 }
-
 .icon-basket:before {
   content: "\e600";
   color: #000;
 }
-
 .icon-breadcrumb:before {
   content: "\e60c";
   color: #000;
 }
-
 .icon-budicon-star-full2:before {
   content: "\e902";
 }
-
 .icon-budicon-star-outline2:before {
   content: "\e903";
 }
-
 .icon-calendar-big2:before {
   content: "\e803";
 }
-
 .icon-cart:before {
   content: "\e60e";
   color: #000;
 }
-
 .icon-checked-circle:before {
   content: "\e611";
   color: #000;
 }
-
 .icon-checked-doc:before {
   content: "\e615";
   color: #000;
 }
-
 .icon-circle-plus:before {
   content: "\e612";
   color: #000;
 }
-
 .icon-com-bubble:before {
   content: "\e837";
   color: #000;
 }
-
 .icon-doc-article-b:before {
   content: "\e841";
   color: #000;
 }
-
 .icon-doc-print-a:before {
   content: "\e890";
   color: #000;
 }
-
 .icon-document:before {
   content: "\e614";
   color: #000;
 }
-
 .icon-ecommerce-shopcart:before {
   content: "\e8c8";
   color: #000;
 }
-
 .icon-facebook:before {
   content: "\e605";
   color: #000;
 }
-
 .icon-interface-arrow-bottom:before {
   content: "\eb45";
   color: #000;
 }
-
 .icon-interface-arrow-left:before {
   content: "\eb47";
   color: #000;
 }
-
 .icon-interface-arrow-right:before {
   content: "\eb4b";
   color: #000;
 }
-
 .icon-interface-arrow-top:before {
   content: "\eb4f";
   color: #000;
 }
-
 .icon-interface-circle:before {
   content: "\ead6";
   color: #000;
 }
-
 .icon-interface-circle-cross:before {
   content: "\ead7";
   color: #000;
 }
-
 .icon-interface-circle-minus:before {
   content: "\ead8";
   color: #000;
 }
-
 .icon-interface-circle-tick:before {
   content: "\eada";
   color: #000;
 }
-
 .icon-interface-cross:before {
   content: "\eae3";
   color: #000;
 }
-
 .icon-interface-reply:before {
   content: "\eb0f";
   color: #000;
 }
-
 .icon-interface-reply-full:before {
   content: "\e90a";
 }
-
 .icon-interface-search-minus:before {
   content: "\eb1b";
   color: #000;
 }
-
 .icon-interface-search-plus:before {
   content: "\eb1c";
   color: #000;
 }
-
 .icon-layout-grid:before {
   content: "\eb2f";
   color: #000;
 }
-
 .icon-linkedin:before {
   content: "\e606";
   color: #000;
 }
-
 .icon-media-video:before {
   content: "\e89f";
   color: #000;
 }
-
 .icon-music-play:before {
   content: "\ea96";
   color: #000;
 }
-
 .icon-music-repeat:before {
   content: "\ea9e";
   color: #000;
 }
-
 .icon-people:before {
   content: "\e610";
   color: #000;
 }
-
 .icon-profile:before {
   content: "\e60f";
   color: #000;
 }
-
 .icon-quote:before {
   content: "\22";
   color: #000;
 }
-
 .icon-receipt:before {
   content: "\e60d";
   color: #000;
 }
-
 .icon-search:before {
   content: "\e607";
   color: #000;
 }
-
 .icon-setting-budicon-gear-a-full:before {
   content: "\e909";
 }
-
 .icon-setting-gear-a:before {
   content: "\e976";
   color: #000;
 }
-
 .icon-slideshow:before {
   content: "\e613";
   color: #000;
 }
-
 .icon-tick:before {
   content: "\e60b";
   color: #000;
 }
-
 .icon-twitter:before {
   content: "\e608";
   color: #000;
 }
-
 .icon-web-download2:before {
   content: "\ea3d";
   color: #000;
